@@ -11,6 +11,12 @@
 		17A210972815CEBD003D1C10 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A210962815CEBD003D1C10 /* ContentView.swift */; };
 		17A210992815CEBE003D1C10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17A210982815CEBE003D1C10 /* Assets.xcassets */; };
 		17A2109C2815CEBE003D1C10 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17A2109B2815CEBE003D1C10 /* Preview Assets.xcassets */; };
+		17A210A32816822F003D1C10 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A210A22816822F003D1C10 /* Game.swift */; };
+		17A210A52816E4AA003D1C10 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A210A42816E4AA003D1C10 /* GameView.swift */; };
+		17A210A72816E4D6003D1C10 /* StartScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A210A62816E4D6003D1C10 /* StartScreen.swift */; };
+		17A210A92816E533003D1C10 /* Hangman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A210A82816E533003D1C10 /* Hangman.swift */; };
+		17A210AB2816E6CA003D1C10 /* EndScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A210AA2816E6CA003D1C10 /* EndScreen.swift */; };
+		17A210AD2816E87A003D1C10 /* PlayingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A210AC2816E87A003D1C10 /* PlayingScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		17A210962815CEBD003D1C10 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		17A210982815CEBE003D1C10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17A2109B2815CEBE003D1C10 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		17A210A22816822F003D1C10 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		17A210A42816E4AA003D1C10 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		17A210A62816E4D6003D1C10 /* StartScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreen.swift; sourceTree = "<group>"; };
+		17A210A82816E533003D1C10 /* Hangman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hangman.swift; sourceTree = "<group>"; };
+		17A210AA2816E6CA003D1C10 /* EndScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndScreen.swift; sourceTree = "<group>"; };
+		17A210AC2816E87A003D1C10 /* PlayingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,12 @@
 			children = (
 				17A210942815CEBD003D1C10 /* HangmanApp.swift */,
 				17A210962815CEBD003D1C10 /* ContentView.swift */,
+				17A210A22816822F003D1C10 /* Game.swift */,
+				17A210A42816E4AA003D1C10 /* GameView.swift */,
+				17A210A62816E4D6003D1C10 /* StartScreen.swift */,
+				17A210AA2816E6CA003D1C10 /* EndScreen.swift */,
+				17A210AC2816E87A003D1C10 /* PlayingScreen.swift */,
+				17A210A82816E533003D1C10 /* Hangman.swift */,
 				17A210982815CEBE003D1C10 /* Assets.xcassets */,
 				17A2109A2815CEBE003D1C10 /* Preview Content */,
 			);
@@ -138,7 +156,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				17A210972815CEBD003D1C10 /* ContentView.swift in Sources */,
+				17A210A32816822F003D1C10 /* Game.swift in Sources */,
+				17A210AD2816E87A003D1C10 /* PlayingScreen.swift in Sources */,
+				17A210A92816E533003D1C10 /* Hangman.swift in Sources */,
+				17A210A72816E4D6003D1C10 /* StartScreen.swift in Sources */,
+				17A210A52816E4AA003D1C10 /* GameView.swift in Sources */,
 				17A210952815CEBD003D1C10 /* HangmanApp.swift in Sources */,
+				17A210AB2816E6CA003D1C10 /* EndScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
