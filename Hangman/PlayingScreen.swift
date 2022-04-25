@@ -57,7 +57,9 @@ struct PlayingScreen: View {
             Spacer()
 
         }
-        .onAppear(perform: focusTextField)
+        .task {
+            focusedField = .field
+        }
     }
 
     private func chooseCharacter() {
@@ -65,12 +67,6 @@ struct PlayingScreen: View {
         guard let character = nextCharacter.last else { return }
         state = update(state: state, action: .choose(character: String(character)))
         nextCharacter = ""
-    }
-
-    private func focusTextField() {
-        DispatchQueue.main.asyncAfter(deadline: .now()+0.01) {
-            self.focusedField = .field
-        }
     }
 }
 
