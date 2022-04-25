@@ -11,12 +11,6 @@ struct GameView: View {
     @State private var state: GameState = .readyToStart
 
     var body: some View {
-        stateView
-            .navigationTitle("Hangman")
-    }
-
-    @ViewBuilder
-    var stateView: some View {
         if case .readyToStart = state {
             StartScreen(state: $state)
                 .transition(.asymmetric(insertion: .opacity, removal: .move(edge: .leading)))
