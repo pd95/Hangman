@@ -29,6 +29,7 @@
 		17A210A82816E533003D1C10 /* Hangman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hangman.swift; sourceTree = "<group>"; };
 		17A210AA2816E6CA003D1C10 /* EndScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndScreen.swift; sourceTree = "<group>"; };
 		17A210AC2816E87A003D1C10 /* PlayingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingScreen.swift; sourceTree = "<group>"; };
+		17A210AE2816FAE7003D1C10 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +46,7 @@
 		17A210882815CEBD003D1C10 = {
 			isa = PBXGroup;
 			children = (
+				17A210AE2816FAE7003D1C10 /* README.md */,
 				17A210932815CEBD003D1C10 /* Hangman */,
 				17A210922815CEBD003D1C10 /* Products */,
 			);
