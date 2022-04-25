@@ -10,7 +10,6 @@
 		17A210952815CEBD003D1C10 /* HangmanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A210942815CEBD003D1C10 /* HangmanApp.swift */; };
 		17A210972815CEBD003D1C10 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A210962815CEBD003D1C10 /* ContentView.swift */; };
 		17A210992815CEBE003D1C10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17A210982815CEBE003D1C10 /* Assets.xcassets */; };
-		17A2109C2815CEBE003D1C10 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17A2109B2815CEBE003D1C10 /* Preview Assets.xcassets */; };
 		17A210A32816822F003D1C10 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A210A22816822F003D1C10 /* Game.swift */; };
 		17A210A52816E4AA003D1C10 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A210A42816E4AA003D1C10 /* GameView.swift */; };
 		17A210A72816E4D6003D1C10 /* StartScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A210A62816E4D6003D1C10 /* StartScreen.swift */; };
@@ -24,7 +23,6 @@
 		17A210942815CEBD003D1C10 /* HangmanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangmanApp.swift; sourceTree = "<group>"; };
 		17A210962815CEBD003D1C10 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		17A210982815CEBE003D1C10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		17A2109B2815CEBE003D1C10 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		17A210A22816822F003D1C10 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		17A210A42816E4AA003D1C10 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		17A210A62816E4D6003D1C10 /* StartScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreen.swift; sourceTree = "<group>"; };
@@ -72,17 +70,8 @@
 				17A210AC2816E87A003D1C10 /* PlayingScreen.swift */,
 				17A210A82816E533003D1C10 /* Hangman.swift */,
 				17A210982815CEBE003D1C10 /* Assets.xcassets */,
-				17A2109A2815CEBE003D1C10 /* Preview Content */,
 			);
 			path = Hangman;
-			sourceTree = "<group>";
-		};
-		17A2109A2815CEBE003D1C10 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				17A2109B2815CEBE003D1C10 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,7 +132,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17A2109C2815CEBE003D1C10 /* Preview Assets.xcassets in Resources */,
 				17A210992815CEBE003D1C10 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,7 +278,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Hangman/Preview Content\"";
 				DEVELOPMENT_TEAM = P8CC95REUG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -319,7 +306,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Hangman/Preview Content\"";
 				DEVELOPMENT_TEAM = P8CC95REUG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
