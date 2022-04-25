@@ -32,7 +32,7 @@ struct PlayingScreen: View {
                         .textCase(.uppercase)
                         .textInputAutocapitalization(.characters)
                         .disableAutocorrection(true)
-                        //.onSubmit(chooseCharacter)
+                        .onSubmit(chooseCharacter)
                         .padding()
                         .foregroundColor(.clear)
 
@@ -57,17 +57,20 @@ struct PlayingScreen: View {
             Spacer()
 
         }
-        .onAppear() {
-            DispatchQueue.main.asyncAfter(deadline: .now()+0.01) {
-                self.focusedField = .field
-            }
-        }
+        .onAppear(perform: focusTextField)
     }
 
     private func chooseCharacter() {
+        focusedField = .field
         guard let character = nextCharacter.last else { return }
         state = update(state: state, action: .choose(character: String(character)))
         nextCharacter = ""
+    }
+
+    private func focusTextField() {
+        DispatchQueue.main.asyncAfter(deadline: .now()+0.01) {
+            self.focusedField = .field
+        }
     }
 }
 
