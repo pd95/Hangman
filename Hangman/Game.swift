@@ -83,7 +83,11 @@ enum GameAction {
 }
 
 let words: [String] = [
-    "Bahnhof", "Fernsehen", "Geschichte", "Wandtafel", "Vogelhaus"
+    "Apfel", "Ball", "Stift", "Zug", "Auto", "Hund", "Katze", "Maus", "Schule", "Lehrer",
+    "Bahnhof", "Fernsehen", "Geschichte", "Wandtafel", "Vogelhaus", "Rhythmus", "Lokomotive",
+    "Klobürste", "Papierschere", "Hundenapf",
+    "Zwerg", "Witz", "Känguru", "Bremse", "Lexikon", "Hokuspokus", "Purzelbaum",
+    "Rumpelstilzchen", "Schmetterling", "Kaulquappe"
 ]
 
 func update(state: GameState, action: GameAction) -> GameState {
