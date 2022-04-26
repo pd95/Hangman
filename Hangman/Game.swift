@@ -111,7 +111,7 @@ func update(state: GameState, action: GameAction) -> GameState {
             print("You win!")
             newState = .done(won: true, word: word, characters: newCharacters, errors: errors)
         } else {
-            if newErrors == 5 {
+            if newErrors == 8 {
                 print("Game over")
                 newState = .done(won: false, word: word, characters: newCharacters, errors: newErrors)
             } else {
