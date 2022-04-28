@@ -12,11 +12,7 @@ struct PlayingScreen: View {
 
     @State private var nextCharacter = ""
 
-    enum FocusField: Hashable {
-        case field
-    }
-
-    @FocusState private var focusedField: FocusField?
+    @FocusState private var isFocused: Bool
 
     var body: some View {
         VStack {
@@ -27,7 +23,7 @@ struct PlayingScreen: View {
                 Text("Type your next character:")
                 ZStack {
                     TextField("", text: $nextCharacter)
-                        .focused($focusedField, equals: .field)
+                        .focused($isFocused)
                         .labelsHidden()
                         .textCase(.uppercase)
                         .textInputAutocapitalization(.characters)
@@ -58,12 +54,12 @@ struct PlayingScreen: View {
 
         }
         .task {
-            focusedField = .field
+            isFocused = true
         }
     }
 
     private func chooseCharacter() {
-        focusedField = .field
+        isFocused = true
         guard let character = nextCharacter.last else { return }
         state = update(state: state, action: .choose(character: String(character)))
         nextCharacter = ""
